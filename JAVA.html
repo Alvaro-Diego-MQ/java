@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name = "viewport" content = "width=device-width,
+    initial-scale=1.0" >
+     <title>GENERAR N
+         </title>
+         <style>
+             body {
+    
+             background-color: rgb(15, 91, 163);
+             margin: 0;
+             padding: 0;
+             }
+            #container {
+            background-color: rgb(161, 226, 228);
+            margin: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+              }
+            
+         </style>
+    </head>
+    <body>
+    <div id="container">
+        <br><br>
+        <fieldset>
+        <br><br>
+        <legend > Generar y desplegar N números que tengan la forma siguiente:
+                    1,2,2,3,3,3,4,4,4,4,5,5,5,5,... </legend >
+        <label for = "" >INGRESE EL VALOR DE N:</label >
+        <input type = "text" id = "valorden">
+              
+        <input type = "button" onclick = " Valor();" value = "Generar">
+        </fieldset> <br><br>
+        
+        </div> 
+       
+            <script>
+                function Valor(){
+                    var a, b;
+                    num= parseInt(document.getElementById("valorden").value);
+                  for(a=1; a<=num; a++)
+                  {
+                      for(b=1; b<=a; b++)
+                      document.write(a);
+                      document.write("<br>");
+                  }
+    
+    
+                }
+               
+            </script>
+           
+            
+         
+     
+      
+       
+    </body>
+    
+</html 
+    
